@@ -1,0 +1,57 @@
+
+
+
+.cor-nodis {
+  background-color: #1C9957;
+}
+
+.logo-principal {
+  width: 60px;
+}
+
+.link-logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+
+.titulo-promocao {
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+
+
+/* produtos */
+.limit-card {
+  width: calc(100% - 200px);
+}
+
+.imagem-produto {
+  width: 200px;
+  height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+}
+.alinhamento-imagem-produto {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+
+.preco-antigo {
+  text-decoration: line-through;
+  color: #9e2a2a;
+}
+
+.preco-novo {
+  font-size: 25px;
+}
+
+
