@@ -1,20 +1,23 @@
-import React from 'react';
+import React, {component} from 'react';
+import {Switch , Route, Link} from 'react-router-dom';
 
 import 'materialize-css/dist/css/materialize.min.css';
 
+import Header from './componentes/view-produtos/header';
+import Footer from './componentes/view-produtos/footer';
+import ViewProdutos from './componentes/view-produtos/viewProdutos';
+import ViewDetalhes from './componentes/view-detalhes/viewDetalhes';
 
-import Header from './componentes/header';
-import Itens from './componentes/itens';
-import Footer from './componentes/footer';
-
-function App() {
+function App()  {
   return (
     <div className="App">
       <Header />
-      <div className="titulo-promocao cor-nodis">
-        <h4 className="container d-flex cor">Produtos em Promoção</h4>
-      </div>
-      <Itens />
+
+      <Switch>
+        <Route exact path="/" component={ViewProdutos}/>
+        <Route path="/detalhes" component={ViewDetalhes}/>       
+      </Switch>
+
       <Footer />
     </div>
   );
