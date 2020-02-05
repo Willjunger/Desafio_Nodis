@@ -1,18 +1,22 @@
-html, body {
-  @font-face {
-    font-family: "Rubik-Regular";
-    src: url('./assets/fonts/Rubik/Rubik-Regular.ttf');
-  };
+@font-face {
+  font-family: 'Rubik';
+  src: url('./assets/fonts/Rubik/Rubik-Regular.ttf');
+}
+@font-face {
+  font-family: 'IBMPlexSans';
+  src: url('./assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf');
 }
 
-
-
-
-h1,h2,h3,h4,h5,h6 {
-  @font-face {
-    font-family: "IBMPlexSans-Regular";
-    src: url('./assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf');
-  };
+html,
+body {
+  font-family: 'Rubik';
 }
 
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'IBMPlexSans';
+}

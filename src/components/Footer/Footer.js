@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Styles from '../../styles/principal.css'
+import '../../styles/principal.css'
+
 import logoNodis from "../../assets/images/logo.png";
 
 const Footer = () => {
@@ -10,7 +11,7 @@ const Footer = () => {
             <div className="row">
               <div className="col l6 s12">
                 <a className="link-logo" href="https://www.nodis.com.br">
-                  <img src={logoNodis} target="_blank" alt="logo nodis" className="logo-principal"/>Nodis
+                  <img src={logoNodis} target="_blank" rel="noopener noreferrer" alt="logo nodis" className="logo-principal"/>Nodis
                 </a>
                 <p className="grey-text text-lighten-4">Seu negócio, agora digital.</p>
               </div>
